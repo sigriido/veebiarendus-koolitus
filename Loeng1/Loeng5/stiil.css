@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    background-color: thistle;
+}
+
+h1 {
+    color:violet;
+}
+.tablet .desktop {
+    display:none;
+}
+
+.blokk {
+    width: 50%;
+    padding-left: 5px;
+}
+
+.blokk img {
+    width: 100%;
+    object-fit: cover;
+}
+.tablet {
+    display: none;
+}
+
+.konteiner {
+    display: flex;
+    flex-direction: column;
+}
+@media screen and (min-width: 600px) {
+    body{
+        background-color: turquoise;
+    }
+    
+    .tablet {
+        display: block;
+
+    }
+
+    .konteiner {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    }
+
+    .mobiil {
+        display: none;
+
+        }
+@media screen and (min-width:1000px){
+    body {
+        background-color: wheat;
+    }
+    .tablet {
+        display: none;
+    }
+
+    .desktop{
+        display: block;
+    }
+    .blokk {
+        width: 33.3%;
+    }
+}

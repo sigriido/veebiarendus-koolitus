@@ -1,0 +1,158 @@
+.paiSektsioon {
+    background-image: url('Hills.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    width:100%;
+    height:900px;
+}
+
+.paislogo {
+    width: 66px;
+    height: 64px;
+
+}
+
+.paisnimi {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 33px;
+    text-align: left;
+    letter-spacing: 0px;
+    color: #0B0B0B;
+    opacity: 1;
+    line-height: 33px;
+    max-width: 150px;
+
+}
+ .menu {
+     font-family: 'Montserrat'sans-serif;
+     font-size: 16.67px;
+     font-weight: bold;
+     text-transform: uppercase;
+     margin-left: auto;
+     letter-spacing: 2.67px;
+     display: flex;
+     align-items: center;
+
+ }
+
+ .menu ul {
+     list-style-type: none;
+     padding:0;
+     margin: 0;
+     height: 100%;
+     width: 100%;
+ }
+
+ .menu li {
+     padding:0px;
+     margin-left: 10px;
+     min-width: 100px;
+     
+ }
+
+ .menu a {
+     color: #0B0B0B;
+ }
+
+ .paisSektsioon-pealkirjad {
+     padding-top: 20px;
+
+ }
+
+ .paisSektsioon-pealkirjad h1 {
+     font-weight: 700px;
+     letter-spacing: 0px;
+     color:#0B0B0B;
+ }
+
+ .paisSektsioon-pealkirjad h2 {
+    font-weight: 700px;
+    letter-spacing: 0px;
+    color:#0B0B0B;
+}
+
+.paisSektsioon-pealkirjad h3 {
+    font-weight: 700px;
+    letter-spacing: 0px;
+    color:#0B0B0B;
+    text-transform: uppercase;
+}
+
+.paisSektsioon-pealkirjad h1 {
+    font-size: 74.3px;
+    line-height: 91px;
+}
+
+.paisSektsioon-pealkirjad h2 {
+    font-size: 39.57px;
+    line-height: 48px;
+}
+
+.paisSektsioon-pealkirjad h3 {
+    font-size: 20.83px;
+}
+
+.rida {
+    display: flex;
+    width: 100%;
+}
+
+.liblikas1 {
+    margin-top: 30px;
+    width: 75px;
+    height: 66px;
+}
+
+.liblikas2 {
+    margin-left: -40px;
+    left: 30px;
+    width: 60px;
+    height: 32px;
+}
+
+.matkaja {
+    overflow: hidden;
+}
+
+.matkaja {
+    width: 750px;
+    height: 750px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: -400px;
+}
+
+.matkaja .shadow {
+    width: 1091px;
+    height: 87px;
+    margin-top:-48px;
+    margin-right: -152px;
+}
+
+.button {
+    margin-top: 50px;
+    width: 247px;
+    height: 58px;
+}
+.button {
+    background-color: #0B0B0B;
+    color:#ffffffff;
+    font-family: 'Montserrat'; sans-serif;
+    
+}
+@media screen and (min-width: 1480px) {
+    .paiSektsioon {
+        background_: transparent url('./Hills@2x.png') 50% 50% no-repeat padding-box;
+    }
+}
+
+ @media screen and (min-width: 992px) {
+     .paisSektsioon-pealkirjad {
+         padding-top: 231px;
+     }
+     
+ }
+
+
+ 

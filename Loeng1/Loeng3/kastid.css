@@ -1,0 +1,18 @@
+.konteiner{
+    background-color: linen;
+    width:80%;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.blokk{
+    width: 150px;
+    height: 150px;
+    background-color: mediumslateblue;
+    border-style: double;
+    border-color: mistyrose;
+    border-width: 1px;
+    display:inline-block
+}

@@ -1,0 +1,39 @@
+h1, h2{
+    font-family: 'Mukta', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    background-color: rgb(188, 188, 224);
+    text-align: center;
+    padding: 2px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.vasak-tulp {
+    width: 25%;
+}
+ 
+.parem-tulp {
+    width: 25%;
+}
+
+.kesk-tulp {
+    width: 25%;
+}
+
+.footer {
+    background-color: rgb(150, 150, 223);
+    text-align: center;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    clear:both;
+}
+@media screen and (min-width: 600px) {
+    .container {
+        flex-direction: row;
+
+        }
+}
